@@ -1,0 +1,93 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	/*font-size: ;*/
+}
+
+body{
+	background: url(../img/fondoimg.jpg);
+	background-position: top center;
+}
+
+/*=============================================
+CABEZOTE
+=============================================*/
+header{
+	position: relative;
+	margin: auto;
+	width: 1400px;
+	height: 45px;
+	background: rgba(0,0,255,.5);
+}
+/*=============================================
+BARRA DE NAVEGACION
+=============================================*/
+nav{
+	position: relative;
+	margin: auto;
+	width: 1400px;
+	height: 60px;
+	background: rgba(0,255,0,.5);
+}
+/*=============================================
+SLIDE
+=============================================*/
+#slide{
+	position: relative;
+	margin: auto;
+	width: 1400px;
+	height: 461px;
+	background: rgba(255,0,0,.5);
+}
+/*=============================================
+BOTONERASLIDE
+=============================================*/
+#botoneraslide{
+	position: relative;
+	margin: auto;
+	width: 1400px;
+	height: 90px;
+	background: rgba(200,255,0,.5);
+}
+/*=============================================
+FOTOSSLIDE
+=============================================*/
+#fotosslide{
+	position: relative;
+	margin: auto;
+	width: 1400px;
+	height: 230px;
+	background: rgba(255,0,255,.5);
+}
+/*=============================================
+SECCION
+=============================================*/
+section{
+	position: relative;
+	margin: auto;
+	width: 1400px;
+	height: 1001px;
+	background: rgba(0,255,255,.5);
+}
+/*=============================================
+BOTTOM
+=============================================*/
+#bottom{
+	position: relative;
+	margin: auto;
+	width: 1400px;
+	height: 365px;
+	background: rgba(200,255,255,.5);
+}
+/*=============================================
+FOOTER
+=============================================*/
+footer{
+	position: relative;
+	margin: auto;
+	width: 1400px;
+	height: 89px;
+	background: rgba(0,255,200,.5);
+}
