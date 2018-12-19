@@ -241,7 +241,7 @@ section #secprin ul#titud button#bdos{
 }
 
 /*=============================================
-SECCION2
+SECCIONFREE
 =============================================*/
 section#free{
 	position: relative;
@@ -337,10 +337,55 @@ BOTTOM
 #bottom ul{
 	position: absolute;
 	top: 0px;
-	left: 267px;
-	width: 864px;
+	left: 253px;
+	width: 891px;
 	height: 246px;
 	background: rgba(300,300,100,.5);
+}
+
+#bottom ul li{
+	float: left;
+	width: 281px;
+	height: 246px;
+	margin: 0px 8px;
+	background: rgba(100,100,255,.5);
+}
+
+#bottom ul li h1{
+	float: left;
+	margin: 48px 9px;
+	width: 248px;
+	height: 0px;
+	font-size: 14px;
+	color: white;
+}
+
+#bottom ul li p{
+	position: relative;
+	text-align: justify;
+	color: white;
+	top: -11px;
+	left: 0px;
+	width: 250px;
+	height: 217px;
+	margin: 0px 11px;
+	font-size: 13px;
+}
+
+#bottom ul li ul#igao{
+	position:absolute;
+	top: 20px;
+	left: 20px;
+	width: 250px;
+	height: 180px;
+}
+
+#bottom ul li ul#igao li{
+	position: relative;
+	width: 76px;
+	height: 56px;
+	margin: 0px 0px;
+	background: rgba(400,400,400,.5);
 }
 /*=============================================
 BOTTEM
@@ -390,6 +435,15 @@ footer ul{
 	background: rgba(255,0,0,.5);	
 }
 
+footer ul li{
+	text-align: left;
+	position: relative;
+	top: 26px;
+	left: 4px;
+	color: white;
+	font-size: 14px;
+}
+
 footer ul#linh{
 	position: absolute;
 	top: 0px;
@@ -397,4 +451,13 @@ footer ul#linh{
 	width: 337px;
 	height: 89px;
 	background: rgba(300,300,0,.5);
+}
+
+footer ul#linh li{
+	text-align: left;
+	position: relative;
+	top: 34px;
+	left: 3px;
+	color: white;
+	font-size: 14px;
 }
