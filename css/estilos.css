@@ -5,12 +5,11 @@
 	list-style: none;
 	/*font-size: ;*/
 }
-
 body{
 	background: url(../img/fondoimg.jpg);
 	background-position: top center;
+	height: 1400px;
 }
-
 /*=============================================
 CABEZOTE
 =============================================*/
@@ -19,9 +18,29 @@ header{
 	margin: auto;
 	width: 1400px;
 	height: 45px;
-	background: rgba(0,0,255,.5);
+	background: #242424;
 }
-
+header ul{
+	position: relative;
+	left: 993px;
+	width: 177px;
+	height: 45px;
+}
+header ul li{
+	position: absolute;
+	float: left;
+	width: 139px;
+	height: 45px;
+}
+header ul li h1{
+	position: absolute;
+	font-size: 11px;
+	top: 16px;
+	left: 56px;
+	width: 112px;
+	cursor: pointer;
+	color: white;
+}
 #logo{
 	position: absolute;
 	top: 11px;
@@ -40,7 +59,6 @@ nav{
 	height: 60px;
 	background: rgba(0,255,0,.5);
 }
-
 nav ul{
 	position: absolute;
 	float: left;
@@ -50,7 +68,6 @@ nav ul{
 	height: 60px;
 	background: rgba(255,245,235,.5);
 }
-
 nav ul li{
 	float: left;
 	width: 92px;
@@ -62,6 +79,14 @@ nav ul li h1{
 	text-align: center;
 	font-size: 18px;
 	margin: 20px 0px;
+}
+
+nav ul#car li{
+	position: relative;
+	width: 182px;
+	height: 60px;
+	left: 759px;
+	cursor: pointer;
 }
 /*=============================================
 SLIDE
@@ -98,6 +123,7 @@ BOTONERASLIDE
 	left: 220px;
 	width: 960px;
 	height: 29px;
+	cursor: pointer;
 	background: rgba(200,210,220,.5);
 }
 
@@ -456,9 +482,20 @@ BOTTEM
 
 #bottem #linen ul#ema li form input#email{
 	float: left;
-	width: 250px;
+	width: 214px;
 	height: 36px;
 	background: #2e2e2e;
+	border: 0;
+	font-style: italic;
+	text-align: center;
+}
+
+#bottem #linen ul#ema li form input#flecha{
+	position: absolute;
+	float: left;
+	width: 38px;
+	height: 36px;
+	background: white;
 	border: 0;
 }
 
@@ -477,6 +514,32 @@ BOTTEM
 	height: 36px;
 	margin: 0px 3px;
 }
+
+#bottem #linen ul#redes li:first-child{background: url(../img/incfk.jpg);
+	background-size: cover;
+}
+
+#bottem #linen ul#redes li:nth-child(2){background: url(../img/inctw.jpg);
+	background-size: cover;
+}
+
+#bottem #linen ul#redes li:nth-child(3){background: url(../img/incgo.jpg);
+	background-size: cover;
+}
+
+#bottem #linen ul#redes li:nth-child(4){background: url(../img/incin.jpg);
+	background-size: cover;
+}
+
+#bottem #linen ul#redes li:last-child{background: url(../img/onc...jpg);
+	background-size: cover;
+}
+
+#bottem #linen ul#redes li a{float: left;
+	width: 38px;
+	height: 36px;
+}
+
 /*=============================================
 FOOTER
 =============================================*/
