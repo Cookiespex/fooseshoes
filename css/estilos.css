@@ -21,25 +21,40 @@ header{
 }
 header ul{
 	position: relative;
-	left: 993px;
-	width: 177px;
+	left: 670px;
+	width: 500px;
 	height: 45px;
+}
+header ul li form{
+	position: absolute;
+	width: 250px;
+	height: 45px;
+}
+header ul li form input#buscar{
+	width: 200px;
+	height: 32px;
+	color: white;
+	background: #2e2e2e;
+	border: 0;
+}
+header ul li form input#bus{
+	width: 50px;
+	height: 32px;
+	color: gray;
+	font-size: 12px;
+	background: #ffffff;
+	border: 0;
 }
 header ul li{
-	position: absolute;
 	float: left;
-	width: 139px;
+	width: 250px;
 	height: 45px;
-	cursor: pointer;
-}
-header ul li h1{
-	position: absolute;
+	position: relative;
 	font-size: 11px;
-	top: 16px;
-	left: 56px;
-	width: 112px;
-	cursor: pointer;
 	color: white;
+	text-align: center;
+	border-right: #2e2e2e;
+	line-height: 45px;
 }
 #logo{
 	position: absolute;
@@ -69,14 +84,11 @@ nav ul{
 nav ul li{
 	float: left;
 	width: 92px;
-	height: 60px;
-	border-right: 1px solid #eeeeee;
-}
-nav ul li h1{
+	font-size: 16px;
 	text-align: center;
-	font-size: 18px;
-	margin: 20px 0px;
+	border-right: 1px solid #eeeeee;
 	color: #242424;
+	line-height: 60px;
 }
 nav ul#car li{
 	position: relative;
@@ -111,7 +123,6 @@ BOTONERASLIDE
 	left: 220px;
 	width: 960px;
 	height: 29px;
-	cursor: pointer;
 }
 #botoneraslide ul#lintex{
 	position: absolute;
@@ -125,7 +136,6 @@ BOTONERASLIDE
 	float: left;
 	width: 192px;
 	height: 41px;
-	cursor: pointer;
 }
 #botoneraslide ul#lintex li h1{
 	font-size: 20px;
@@ -159,13 +169,11 @@ FOTOSSLIDE
 	width: 300px;
 	height: 180px;
 	margin: 0px 10px;
-	cursor: pointer;
 }
 #fotosslide #cajasfotos ul li img{
 	float: left;
 	width: 300px;
 	height: 180px;
-	cursor: pointer;
 }
 #fotosslide #cajasfotos ul li p{
 	position: absolute;
@@ -186,7 +194,7 @@ section{
 	position: relative;
 	margin: auto;
 	width: 1400px;
-	height: 767px;
+	height: 766px;
 	background: #ebe7df;
 }
 section #secprin{
@@ -401,7 +409,7 @@ BOTTEM
 	position: relative;
 	margin: auto;
 	width: 1400px;
-	height: 119px;
+	height: 118px;
 	background: #242424;
 }
 #bottem #linen{
