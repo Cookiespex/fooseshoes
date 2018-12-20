@@ -186,7 +186,7 @@ section{
 	position: relative;
 	margin: auto;
 	width: 1400px;
-	height: 768px;
+	height: 767px;
 	background: #ebe7df;
 }
 section #secprin{
@@ -194,7 +194,7 @@ section #secprin{
 	top: 0px;
 	left: 220px;
 	width: 960px;
-	height: 768px;
+	height: 767px;
 	background: url(../img/yes.jpg);
 }
 section #secprin ul#fotos{
